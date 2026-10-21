@@ -40,7 +40,7 @@ The tool supports local logging and real-time Discord notifications, making it u
 
 This tool records events available through the Fusion 360 API. It is not a system-wide keylogger and does not capture arbitrary keyboard input.
 
-Not all internal modeling operations are necessarily exposed through the Fusion 360 API.
+Not all internal modeling operations are necessarily exposed through the Fusion 360 API.:D
 
 ## Technology
 
