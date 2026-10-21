@@ -20,10 +20,16 @@ LOG_DIR = os.path.join(
     "FusionActivityLogs"
 )
 
+# Discordへ各イベントを即時送信
 SEND_TO_DISCORD = True
+
+# ローカルログ
 SAVE_TXT = True
 SAVE_JSON = True
+
+# COMMAND_START / COMMAND_END もDiscordへ送る
 SEND_COMMAND_EVENTS = True
+
 
 # ============================================================
 # GLOBAL
@@ -36,8 +42,10 @@ session_log = []
 txt_path = None
 json_path = None
 
+# コマンド開始前のモデル状態
 before_snapshot = None
 
+# 前回取得した状態
 last_snapshot = None
 
 
